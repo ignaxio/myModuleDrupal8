@@ -1,0 +1,14 @@
+myModule.content:
+  path: '/my-module'
+  defaults:
+    _controller: '\Drupal\myModule\Controller\myModuleController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+myModule.verPagina:
+  path: '/my-module/ver-pagina'
+  defaults:
+    _controller: '\Drupal\myModule\Controller\myModuleController::verPagina'
+    _title: 'Página de mi módulo'
+  requirements:
+    _permission: 'access content'

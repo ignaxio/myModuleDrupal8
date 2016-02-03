@@ -1,0 +1,8 @@
+## YAML Template.
+---
+name: My Module
+description: Módulo para practicas
+package: Ignacio
+
+type: module
+core: 8.x
